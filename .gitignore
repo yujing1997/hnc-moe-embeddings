@@ -1,0 +1,29 @@
+# ===== Large generated / data artifacts (excluded by default) =====
+embeddings/
+src/plotting/outputs/
+logs/
+*.pkl
+*.pt
+*.npz
+*.npy
+
+# Run logs
+*_run.log
+*_run_log.txt
+*embedding_log*.txt
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# ===== OS / editor =====
+.DS_Store
+*.swp
+
+# ===== Misc build/temp =====
+tmp/
+tmp_*.py
+*.bak
+*.bak_pre_mice
